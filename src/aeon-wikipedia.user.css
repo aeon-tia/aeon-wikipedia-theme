@@ -14,6 +14,7 @@
 	"Nord-Dark",
 	"Nord-Light",
 	"Everforest-Dark",
+    "Everforest-Light",
     "Catppuccin-Frappe",
     "Catppuccin-Latte"
 ]
@@ -120,6 +121,39 @@
             --success: #83C092;
             --dark-purple: #543A48;
             --documentation: #543A48;
+            --diff-del: #514045;
+            --diff-ins: #425047;
+            --diff-old: #4D4C43;
+            --diff-new: #3A515D;
+        }
+        else if stylus-wiki-style=="Everforest-Light" {
+            --background: #fdf6e3;
+            --background-2: #f4f0d9;
+            --background-3: #efebd4;
+            --background-4: #e6e2cc;
+            --background-black: #fdf6e3;
+            --background-alert: #f4f0d9;
+            --foreground: #5c6a72;
+            --foreground-2: #829181;
+            --foreground-footer: #939f91;
+            --foreground-disabled: #a6b0a0;
+            --foreground-code: #35a77c;
+            --link: #8da101;
+            --link-visited: #df69ba;
+            --link-invalid: #f85552;
+            --link-hover: #df69ba;
+            --link-invalid-hover: #f85552;
+            --border: #fdf6e3;
+            --border-input: #f4f0d9;
+            --main: #8da101;
+            --main-hover: #35a77c;
+            --main-light: #dfa000;
+            --error: #f85552;
+            --warn: #f57d26;
+            --note: #35a77c;
+            --success: #8da101;
+            --dark-purple: #df69ba;
+            --documentation: #df69ba;
             --diff-del: #514045;
             --diff-ins: #425047;
             --diff-old: #4D4C43;
