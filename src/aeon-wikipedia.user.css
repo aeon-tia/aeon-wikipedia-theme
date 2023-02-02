@@ -549,7 +549,7 @@
     }
     
     .mw-footer li {
-        color: #859289;
+        color: var(--foreground-footer);
         margin: 0;
         padding: 0.5em 0;
         font-size: 0.75em;
