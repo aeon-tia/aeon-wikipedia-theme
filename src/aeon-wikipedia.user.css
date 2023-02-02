@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name Aeon Wikipedia
+@name Aeon Wikipedia Theme
 @namespace github.com/aeon-tia/wikipedia-nord-theme
 @homepageURL https://github.com/aeon-tia/wikipedia-nord-theme
 @updateURL https://github.com/aeon-tia/aeon-wikipedia-theme/raw/main/src/aeon-wikipedia.user.css
@@ -10,11 +10,12 @@
 
 @preprocessor stylus
 
-@var select stylus-wiki-style "Preset themes" [
+@var select stylus-wiki-style "Color presets" [
 	"Nord-Dark",
 	"Nord-Light",
 	"Everforest-Dark",
-    "Catppuccin-Frappe"
+    "Catppuccin-Frappe",
+    "Catppuccin-Latte"
 ]
 
 
@@ -119,6 +120,39 @@
             --success: #83C092;
             --dark-purple: #543A48;
             --documentation: #543A48;
+            --diff-del: #514045;
+            --diff-ins: #425047;
+            --diff-old: #4D4C43;
+            --diff-new: #3A515D;
+        }
+        else if stylus-wiki-style=="Catppuccin-Latte" {
+            --background: #eff1f5;
+            --background-2: #ccd0da;
+            --background-3: #bcc0cc;
+            --background-4: #acb0be;
+            --background-black: #eff1f5;
+            --background-alert: #ccd0da;
+            --foreground: #4c4f69;
+            --foreground-2: #6c6f85;
+            --foreground-footer: #8c8fa1;
+            --foreground-disabled: #9ca0b0;
+            --foreground-code: #40a02b;
+            --link: #dc8a78;
+            --link-visited: #ea76cb;
+            --link-invalid: #e64553;
+            --link-hover: #ea76cb;
+            --link-invalid-hover: #e64553;
+            --border: #eff1f5;
+            --border-input: #ccd0da;
+            --main: #dc8a78;
+            --main-hover: #dd7878;
+            --main-light: #ea76cb;
+            --error: #e64553;
+            --warn: #fe640b;
+            --note: #179299;
+            --success: #40a02b;
+            --dark-purple: #7287fd;
+            --documentation: #7287fd;
             --diff-del: #514045;
             --diff-ins: #425047;
             --diff-old: #4D4C43;
