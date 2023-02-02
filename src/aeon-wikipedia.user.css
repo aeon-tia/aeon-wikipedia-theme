@@ -10,7 +10,7 @@
 
 @preprocessor stylus
 
-@var select stylus-wiki-style "Preset themes" [
+@var select stylus-wiki-style "Color Palettes" [
 	"Nord-Dark",
 	"Nord-Light",
 	"Everforest-Dark"
