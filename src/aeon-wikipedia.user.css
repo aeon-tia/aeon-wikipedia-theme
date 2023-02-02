@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name Aeon Wikipedia
+@name Aeon Wikipedia Theme
 @namespace github.com/aeon-tia/wikipedia-nord-theme
 @homepageURL https://github.com/aeon-tia/wikipedia-nord-theme
 @updateURL https://github.com/aeon-tia/aeon-wikipedia-theme/raw/main/src/aeon-wikipedia.user.css
@@ -10,10 +10,11 @@
 
 @preprocessor stylus
 
-@var select stylus-wiki-style "Color Palettes" [
+@var select stylus-wiki-style "Preset themes" [
 	"Nord-Dark",
 	"Nord-Light",
-	"Everforest-Dark"
+	"Everforest-Dark",
+    "Catppuccin-Frappe"
 ]
 
 
@@ -23,7 +24,40 @@
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     
     :root {
-        if stylus-wiki-style=="Nord-Light" {
+        if stylus-wiki-style=="Nord-Dark" {
+            --background: #2e3440;
+            --background-2: #3b4252;
+            --background-3: #434c5e;
+            --background-4: #4c566a;
+            --background-black: #2e3440;
+            --background-alert: #3b4252;
+            --foreground: #e5e9f0;
+            --foreground-2: #d8dee9;
+            --foreground-footer: #4c566a;
+            --foreground-disabled: #4c566a;
+            --foreground-code: #a3be8c;
+            --link: #88c0d0;
+            --link-visited: #81a1c1;
+            --link-invalid: #bf616a;
+            --link-hover: #81a1c1;
+            --link-invalid-hover: #bf616a;
+            --border: #2e3440;
+            --border-input: #3b4252;
+            --main: #88c0d0;
+            --main-hover: #81a1c1;
+            --main-light: #8fbcbb;
+            --error: #bf616a;
+            --warn: #d08770;
+            --note: #b48ead;
+            --success: #a3be8c;
+            --dark-purple: #b48ead;
+            --documentation: #81a1c1;
+            --diff-del: #bf616a;
+            --diff-ins: #a3be8c;
+            --diff-old: #ebcb8b;
+            --diff-new: #81a1c1;
+        }
+        else if stylus-wiki-style=="Nord-Light" {
             --background: #eceff4;
             --background-2: #d8dee9;
             --background-3: #d8dee9;
@@ -90,38 +124,38 @@
             --diff-old: #4D4C43;
             --diff-new: #3A515D;
         }
-        else if stylus-wiki-style=="Nord-Dark" {
-            --background: #2e3440;
-            --background-2: #3b4252;
-            --background-3: #434c5e;
-            --background-4: #4c566a;
-            --background-black: #2e3440;
-            --background-alert: #3b4252;
-            --foreground: #e5e9f0;
-            --foreground-2: #d8dee9;
-            --foreground-footer: #4c566a;
-            --foreground-disabled: #4c566a;
-            --foreground-code: #a3be8c;
-            --link: #88c0d0;
-            --link-visited: #81a1c1;
-            --link-invalid: #bf616a;
-            --link-hover: #81a1c1;
-            --link-invalid-hover: #bf616a;
-            --border: #2e3440;
-            --border-input: #3b4252;
-            --main: #88c0d0;
-            --main-hover: #81a1c1;
-            --main-light: #8fbcbb;
-            --error: #bf616a;
-            --warn: #d08770;
-            --note: #b48ead;
-            --success: #a3be8c;
-            --dark-purple: #b48ead;
-            --documentation: #81a1c1;
-            --diff-del: #bf616a;
-            --diff-ins: #a3be8c;
-            --diff-old: #ebcb8b;
-            --diff-new: #81a1c1;
+        else if stylus-wiki-style=="Catppuccin-Frappe" {
+            --background: #303446;
+            --background-2: #414559;
+            --background-3: #51576d;
+            --background-4: #626880;
+            --background-black: #303446;
+            --background-alert: #414559;
+            --foreground: #c6d0f5;
+            --foreground-2: #a5adce;
+            --foreground-footer: #a5adce;
+            --foreground-disabled: #838ba7;
+            --foreground-code: #a6d189;
+            --link: #f2d5cf;
+            --link-visited: #ca9ee6;
+            --link-invalid: #e78284;
+            --link-hover: #ca9ee6;
+            --link-invalid-hover: #e78284;
+            --border: #303446;
+            --border-input: #414559;
+            --main: #f2d5cf;
+            --main-hover: #eebebe;
+            --main-light: #f4b8e4;
+            --error: #e78284;
+            --warn: #ef9f76;
+            --note: #81c8be;
+            --success: #f2d5cf;
+            --dark-purple: #babbf1;
+            --documentation: #babbf1;
+            --diff-del: #514045;
+            --diff-ins: #425047;
+            --diff-old: #4D4C43;
+            --diff-new: #3A515D;
         }
         else {
             --background: #2e3440;
