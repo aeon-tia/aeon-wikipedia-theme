@@ -444,6 +444,10 @@
     #content h3 {
         font-size: 20px !important;
     }
+    
+    .mw-content-container {
+        max-width: 1000px !important;
+    }
 
     p {
         font-weight: 400 !important;
@@ -544,7 +548,6 @@
     .wikitable > * > tr > th,
     .wikitable > * > tr > td {
         background-color: var(--background-2);
-        text-align: center;
         border: 1px solid var(--background);
         padding: 0.2em 0.4em;
     }
@@ -630,6 +633,7 @@
     .mw-parser-output .sidebar {
         background: var(--background-2);
         border: 1px solid var(--background-2);
+        max-width: 325px;
     }
     
     .cdx-search-input--has-end-button {
@@ -701,7 +705,7 @@
         transition-property: opacity;
         transition-duration: 100ms;
     }
-    
+
     .vector-toc {
         background-color: var(--background-2);
         border: 0px !important;
@@ -830,5 +834,17 @@
         background-color: var(--background-2);
         color: var(--foreground);
         border: 1px solid var(--background-2);
+    }
+    
+    .mw-parser-output .sidebar-title,
+    .mw-parser-output .sidebar-title-with-pretitle{
+        background-color: var(--background-2) !important;
+        border-bottom: 1px solid var(--background);
+    }
+    
+    .mw-parser-output .sidebar-heading {
+        background-color: var(--background-2) !important;
+        border-bottom: 1px solid var(--background);
+        border-top: 1px solid var(--background);
     }
 }
