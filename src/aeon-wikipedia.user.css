@@ -275,8 +275,8 @@
 
     *::-webkit-scrollbar-thumb {
         background-color: var(--background-3);
-        border-radius: 0px;
-        border: 0px solid var(--background);
+        border-radius: 1px;
+        border: 1px solid var(--background);
     }
     
     body,
