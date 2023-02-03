@@ -870,4 +870,8 @@
         border-bottom: 1px solid var(--background);
         border-top: 1px solid var(--background);
     }
+
+    .mw-mmv-above-fold {
+        background-color: var(--background) !important;
+    }
 }
