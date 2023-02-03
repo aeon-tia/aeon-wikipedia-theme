@@ -14,7 +14,7 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 <details>
   <summary>Nord</summary>
   
-  Dark            |  Light
+  Polar Night            |  Snow Storm
   |-------------------------|-------------------------|
   ![image](https://user-images.githubusercontent.com/33649177/216521881-d6ba6ad8-73d8-4d19-9595-3cb54a8f148e.png) | ![image](https://user-images.githubusercontent.com/33649177/216521951-fea68ca6-4988-48b5-b5ef-8f2d437a619b.png)
 </details>
