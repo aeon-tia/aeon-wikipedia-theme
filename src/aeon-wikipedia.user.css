@@ -259,6 +259,25 @@
             --diff-new: #81a1c1;
         }
     }
+
+    * { 
+        scrollbar-width: thin;
+        scrollbar-color: var(--background-3) var(--background);
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: var(--background);
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: var(--background-3);
+        border-radius: 20px;
+        border: 3px solid var(--background);
+    }
     
     body,
     .mw-body,
