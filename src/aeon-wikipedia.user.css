@@ -228,11 +228,11 @@
             --diff-new: #3A515D;
         }
         else if stylus-wiki-style=="Material-Dark" {
-            --background: #333333;
+            --background: #2e2e2e;
             --background-2: #424242;
             --background-3: #616161;
             --background-4: #757575;
-            --background-black: #333333;
+            --background-black: #2e2e2e;
             --background-alert: #424242;
             --foreground: #ECEFF1;
             --foreground-2: #CFD8DC;
@@ -244,7 +244,7 @@
             --link-invalid: #E57373;
             --link-hover: #9575CD;
             --link-invalid-hover: #E57373;
-            --border: #333333;
+            --border: #2e2e2e;
             --border-input: #424242;
             --main: #64B5F6;
             --main-hover: #9575CD;
