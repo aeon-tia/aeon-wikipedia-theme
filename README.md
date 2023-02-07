@@ -6,7 +6,7 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 1. Install the [Stylus](https://github.com/openstyles/stylus) extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en).
 2. Then install with Stylus (click on the link):
 - [Install](https://github.com/aeon-tia/aeon-wikipedia-theme/raw/main/src/aeon-wikipedia.user.css)
-3. Choose your preferred color palette by setting Color Palettes in Stylus options
+3. Choose your preferred color palette from the presets in Stylus options.
 
 
 ## Examples
