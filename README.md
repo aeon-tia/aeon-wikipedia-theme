@@ -36,6 +36,15 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 </details>
 
 <details>
+  <summary>Solarized</summary>
+  
+  Dark            |  Light
+  |-------------------------|-------------------------|
+  ![image](https://user-images.githubusercontent.com/33649177/217442928-de0fc759-80d4-4ae9-ba27-2b958aa6a913.png) | ![image](https://user-images.githubusercontent.com/33649177/217442976-917a8233-888f-4a9b-a8d8-801b8daa862d.png)
+
+</details>
+
+<details>
   <summary>Material</summary>
   
   Dark            |  Light
