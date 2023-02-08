@@ -17,6 +17,8 @@
     "Everforest-Light",
     "Catppuccin-Frappe",
     "Catppuccin-Latte",
+    "Solarized-Dark",
+    "Solarized-Light",
     "Material-Dark",
     "Material-Light"
 ]
@@ -226,6 +228,72 @@
             --diff-ins: #425047;
             --diff-old: #4D4C43;
             --diff-new: #3A515D;
+        }
+        else if stylus-wiki-style=="Solarized-Dark" {
+            --background: #002b36;
+            --background-2: #073642;
+            --background-3: #073642;
+            --background-4: #073642;
+            --background-black: #002b36;
+            --background-alert: #073642;
+            --foreground: #839496;
+            --foreground-2: #586e75;
+            --foreground-footer: #586e75;
+            --foreground-disabled: #586e75;
+            --foreground-code: #859900;
+            --link: #268bd2;
+            --link-visited: #6c71c4;
+            --link-invalid: #dc322f;
+            --link-hover: #6c71c4;
+            --link-invalid-hover: #dc322f;
+            --border: #002b36;
+            --border-input: #073642;
+            --main: #268bd2;
+            --main-hover: #9575CD;
+            --main-light: #4DD0E1;
+            --error: #dc322f;
+            --warn: #cb4b16;
+            --note: #2aa198;
+            --success: #859900;
+            --dark-purple: #6c71c4;
+            --documentation: #6c71c4;
+            --diff-del: #dc322f;
+            --diff-ins: #81C784;
+            --diff-old: #cb4b16;
+            --diff-new: #6c71c4;
+        }
+        else if stylus-wiki-style=="Solarized-Light" {
+            --background: #fdf6e3;
+            --background-2: #eee8d5;
+            --background-3: #eee8d5;
+            --background-4: #eee8d5;
+            --background-black: #fdf6e3;
+            --background-alert: #eee8d5;
+            --foreground: #657b83;
+            --foreground-2: #93a1a1;
+            --foreground-footer: #93a1a1;
+            --foreground-disabled: #93a1a1;
+            --foreground-code: #859900;
+            --link: #268bd2;
+            --link-visited: #6c71c4;
+            --link-invalid: #dc322f;
+            --link-hover: #6c71c4;
+            --link-invalid-hover: #dc322f;
+            --border: #fdf6e3;
+            --border-input: #eee8d5;
+            --main: #268bd2;
+            --main-hover: #9575CD;
+            --main-light: #4DD0E1;
+            --error: #dc322f;
+            --warn: #cb4b16;
+            --note: #2aa198;
+            --success: #859900;
+            --dark-purple: #6c71c4;
+            --documentation: #6c71c4;
+            --diff-del: #dc322f;
+            --diff-ins: #81C784;
+            --diff-old: #cb4b16;
+            --diff-new: #6c71c4;
         }
         else if stylus-wiki-style=="Material-Dark" {
             --background: #2e2e2e;
