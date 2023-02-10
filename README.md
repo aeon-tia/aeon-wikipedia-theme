@@ -45,6 +45,15 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 </details>
 
 <details>
+  <summary>Tomorrow</summary>
+  
+  Tomorrow Night            |  Tomorrow
+  |-------------------------|-------------------------|
+  ![image](https://user-images.githubusercontent.com/33649177/218014778-6f0bda5a-ceb5-46a4-9e69-46348f2f1a25.png) | ![image](https://user-images.githubusercontent.com/33649177/218014870-bdaeac74-724e-453b-ac64-c0fbdee08ea3.png)
+
+</details>
+
+<details>
   <summary>Material</summary>
   
   Dark            |  Light
