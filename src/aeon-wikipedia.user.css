@@ -632,6 +632,7 @@
     .uls-input-settings .uls-input-settings-inputmethods-list,
     .mw-pt-languages-label,
     .statstable > * > tr.tux-statstable-even > td {
+        color: var(--foreground);
         background-color: var(--background-2) !important;
         border-color: var(--background-2) !important;
     }
