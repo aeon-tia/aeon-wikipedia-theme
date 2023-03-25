@@ -14,7 +14,16 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 <details>
   <summary>Nord</summary>
   
-  Polar Night            |  Snow Storm
+  Evergreen Forest          |  Overcast Sky
+  |-------------------------|-------------------------|
+  ![image](https://user-images.githubusercontent.com/33649177/227742311-01c3b140-bb99-4a89-a129-6b12c2e8211a.png)
+ | ![image](https://user-images.githubusercontent.com/33649177/227742330-3f9987df-fe04-4b10-b979-55143296ea5e.png)
+</details>
+
+<details>
+  <summary>Nord</summary>
+  
+  Polar Night               |  Snow Storm
   |-------------------------|-------------------------|
   ![image](https://user-images.githubusercontent.com/33649177/216521881-d6ba6ad8-73d8-4d19-9595-3cb54a8f148e.png) | ![image](https://user-images.githubusercontent.com/33649177/216521951-fea68ca6-4988-48b5-b5ef-8f2d437a619b.png)
 </details>
@@ -22,23 +31,15 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 <details>
   <summary>Everforest</summary>
   
-  Dark            |  Light
+  Dark                      |  Light
   |-------------------------|-------------------------|
   ![image](https://user-images.githubusercontent.com/33649177/216522701-1ca9ef96-0b33-4d0e-a7e4-bd577babb97c.png) | ![image](https://user-images.githubusercontent.com/33649177/216522793-f0ca91f4-e10e-42de-963f-29ed242d6e14.png)
 </details>
 
 <details>
-  <summary>Catppuccin</summary>
-  
-  Frappe            |  Latte
-  |-------------------------|-------------------------|
-  ![image](https://user-images.githubusercontent.com/33649177/216522837-cdb109e7-8b6b-4466-b47e-a0d6af2e260c.png) | ![image](https://user-images.githubusercontent.com/33649177/216522911-2f5be2a9-b41e-4373-b4da-fd24520ac6d4.png)
-</details>
-
-<details>
   <summary>Solarized</summary>
   
-  Dark            |  Light
+  Dark                      |  Light
   |-------------------------|-------------------------|
   ![image](https://user-images.githubusercontent.com/33649177/217442928-de0fc759-80d4-4ae9-ba27-2b958aa6a913.png) | ![image](https://user-images.githubusercontent.com/33649177/217442976-917a8233-888f-4a9b-a8d8-801b8daa862d.png)
 
@@ -56,7 +57,7 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 <details>
   <summary>Material</summary>
   
-  Dark            |  Light
+  Dark                      |  Light
   |-------------------------|-------------------------|
   ![image](https://user-images.githubusercontent.com/33649177/216537514-40e65855-3a9f-464b-becb-a05d945250d4.png) | ![image](https://user-images.githubusercontent.com/33649177/216537553-cd91cc0a-5c9f-4721-b16b-9720d1f89abb.png)
 
