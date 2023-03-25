@@ -3,7 +3,7 @@
 @namespace github.com/aeon-tia/wikipedia-nord-theme
 @homepageURL https://github.com/aeon-tia/wikipedia-nord-theme
 @updateURL https://github.com/aeon-tia/aeon-wikipedia-theme/raw/main/src/aeon-wikipedia.user.css
-@version 0.0.3
+@version 0.0.4
 @author Eon
 @description A simple and minimal theme for Wikipedia 2023
 @license GNU-V3.0
@@ -11,12 +11,12 @@
 @preprocessor stylus
 
 @var select stylus-wiki-style "Color presets" [
-	"Nord-Dark",
+	"Aeon-Evergreen-Forest",
+    "Aeon-Overcast-Sky",
+    "Nord-Dark",
 	"Nord-Light",
 	"Everforest-Dark",
     "Everforest-Light",
-    "Catppuccin-Frappe",
-    "Catppuccin-Latte",
     "Solarized-Dark",
     "Solarized-Light",
     "Tomorrow-Night",
@@ -165,67 +165,69 @@
             --diff-old: #4D4C43;
             --diff-new: #3A515D;
         }
-        else if stylus-wiki-style=="Catppuccin-Latte" {
-            --background: #eff1f5;
-            --background-2: #ccd0da;
-            --background-3: #bcc0cc;
-            --background-4: #acb0be;
-            --background-black: #eff1f5;
-            --background-alert: #ccd0da;
-            --foreground: #4c4f69;
-            --foreground-2: #6c6f85;
-            --foreground-footer: #8c8fa1;
-            --foreground-disabled: #9ca0b0;
-            --foreground-code: #40a02b;
-            --link: #dc8a78;
-            --link-visited: #ea76cb;
-            --link-invalid: #e64553;
-            --link-hover: #ea76cb;
-            --link-invalid-hover: #e64553;
-            --border: #eff1f5;
-            --border-input: #ccd0da;
-            --main: #dc8a78;
-            --main-hover: #dd7878;
-            --main-light: #ea76cb;
-            --error: #e64553;
-            --warn: #fe640b;
-            --note: #179299;
-            --success: #40a02b;
-            --dark-purple: #7287fd;
-            --documentation: #7287fd;
+        else if stylus-wiki-style=="Aeon-Evergreen-Forest" {
+            --background: #2E363A;
+            --background-2: #38434A;
+            --background-3: #434E55;
+            --background-4: #4C575F;
+            --background-5: #4C575F;
+            --background-black: #2E363A;
+            --background-alert: #38434A;
+            --foreground: #E3E6ED;
+            --foreground-2: #D7DBE4;
+            --foreground-footer: #8C949E;
+            --foreground-disabled: #6C767F;
+            --foreground-code: #83c092;
+            --link: #8CC1C0;
+            --link-visited: #AD8AB4;
+            --link-invalid: #BF666F;
+            --link-hover: #8CC1C0;
+            --link-invalid-hover: #BF666F;
+            --border: #2E363A;
+            --border-input: #38434A;
+            --main: #9DBF8E;
+            --main-hover: #5EBBB7;
+            --main-light: #9DBF8E;
+            --error: #BF666F;
+            --warn: #D57E6C;
+            --note: #5EBBB7;
+            --success: #9DBF8E;
+            --dark-purple: #543A48;
+            --documentation: #543A48;
             --diff-del: #514045;
             --diff-ins: #425047;
             --diff-old: #4D4C43;
             --diff-new: #3A515D;
         }
-        else if stylus-wiki-style=="Catppuccin-Frappe" {
-            --background: #303446;
-            --background-2: #414559;
-            --background-3: #51576d;
-            --background-4: #626880;
-            --background-black: #303446;
-            --background-alert: #414559;
-            --foreground: #c6d0f5;
-            --foreground-2: #a5adce;
-            --foreground-footer: #a5adce;
-            --foreground-disabled: #838ba7;
-            --foreground-code: #a6d189;
-            --link: #f2d5cf;
-            --link-visited: #ca9ee6;
-            --link-invalid: #e78284;
-            --link-hover: #ca9ee6;
-            --link-invalid-hover: #e78284;
-            --border: #303446;
-            --border-input: #414559;
-            --main: #f2d5cf;
-            --main-hover: #eebebe;
-            --main-light: #f4b8e4;
-            --error: #e78284;
-            --warn: #ef9f76;
-            --note: #81c8be;
-            --success: #f2d5cf;
-            --dark-purple: #babbf1;
-            --documentation: #babbf1;
+        else if stylus-wiki-style=="Aeon-Overcast-Sky" {
+            --background: #ECEFF3;
+            --background-2: #E1E4EB;
+            --background-3: #D7DBE4;
+            --background-4: #CBD0DC;
+            --background-5: #CBD0DC;
+            --background-black: #ECEFF3;
+            --background-alert: #E1E4EB;
+            --foreground: #2E363A;
+            --foreground-2: #38434A;
+            --foreground-footer: #ACB2BD;
+            --foreground-disabled: #8C949E;
+            --foreground-code: #93B982;
+            --link: #6CA5A5;
+            --link-visited: #A67FAD;
+            --link-invalid: #BA5A64;
+            --link-hover: #6CA5A5;
+            --link-invalid-hover: #BA5A64;
+            --border: #ECEFF3;
+            --border-input: #E1E4EB;
+            --main: #93B982;
+            --main-hover: #6CA5A5;
+            --main-light: #93B982;
+            --error: #BA5A64;
+            --warn: #D0826B;
+            --note: #7DB3CC;
+            --success: #93B982;
+            --dark-purple: #543A48;
+            --documentation: #543A48;
             --diff-del: #514045;
             --diff-ins: #425047;
             --diff-old: #4D4C43;
@@ -493,7 +495,7 @@
     .suggestion-link,
     .oo-ui-menuLayout-content,
     .mw-page-container {
-        font-family: "Cronos Pro", "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", "Arial", sans-serif !important;
+        font-family: "Cronos Pro", "Minion Pro", "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", "Arial", sans-serif !important;
         font-size: 18px;
         font-variant-numeric: oldstyle-nums;
         color: var(--foreground);
@@ -632,9 +634,9 @@
     .uls-input-settings .uls-input-settings-inputmethods-list,
     .mw-pt-languages-label,
     .statstable > * > tr.tux-statstable-even > td {
-        color: var(--foreground);
         background-color: var(--background-2) !important;
         border-color: var(--background-2) !important;
+        color: var(--foreground);
     }
     
     #vector-toc-pinned-container .sidebar-toc::after,
