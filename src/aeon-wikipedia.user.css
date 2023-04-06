@@ -45,9 +45,9 @@
             --foreground-disabled: #4c566a;
             --foreground-code: #a3be8c;
             --link: #88c0d0;
-            --link-visited: #81a1c1;
+            --link-visited: #b48ead;
             --link-invalid: #bf616a;
-            --link-hover: #81a1c1;
+            --link-hover: #b48ead;
             --link-invalid-hover: #bf616a;
             --border: #2e3440;
             --border-input: #3b4252;
@@ -78,9 +78,9 @@
             --foreground-disabled: #4c566a;
             --foreground-code: #a3be8c;
             --link: #5e81ac;
-            --link-visited: #81a1c1;
+            --link-visited: #b48ead;
             --link-invalid: #bf616a;
-            --link-hover: #81a1c1;
+            --link-hover: #b48ead;
             --link-invalid-hover: #bf616a;
             --border: #eceff4;
             --border-input: #d8dee9;
