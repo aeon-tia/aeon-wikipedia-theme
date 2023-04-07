@@ -648,6 +648,10 @@
         width: 230px;
         background-color: var(--background) !important;
     }
+	
+	.vector-header-container {
+        background-color: var(--background-2);
+    }
     
     .vector-toc-pinned #vector-toc-pinned-container .vector-toc::after {
         content: '';
