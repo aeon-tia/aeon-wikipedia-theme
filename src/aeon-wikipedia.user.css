@@ -650,7 +650,7 @@
     }
 	
 	.vector-header-container {
-        background-color: var(--background-2);
+        background-color: var(--background-2) !important;
     }
     
     .vector-toc-pinned #vector-toc-pinned-container .vector-toc::after {
