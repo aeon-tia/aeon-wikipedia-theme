@@ -29,7 +29,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org"), domain("wikimedia.org"), domain("mediawiki.org"), url-prefix("https://project-gc.com/w/") {
-    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     
     :root {
         if stylus-wiki-style=="Nord-Dark" {
@@ -495,7 +495,7 @@
     .suggestion-link,
     .oo-ui-menuLayout-content,
     .mw-page-container {
-        font-family: "Cronos Pro", "Minion Pro", "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", "Arial", sans-serif !important;
+        font-family: "Cronos Pro", "Minion Pro", "Newsreader", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", "Arial", sans-serif !important;
         font-size: 18px;
         font-variant-numeric: oldstyle-nums;
         color: var(--foreground);
@@ -520,7 +520,7 @@
     
     h1 {
         border: 0 !important;
-        font-family: "Cronos Pro",  "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
+        font-family: "Cronos Pro",  "Newsreader", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
         font-style: italic !important;
         font-weight: 400 !important;
         font-size: 36px !important;
@@ -529,7 +529,7 @@
 
     h2 {
         border: 0 !important;
-        font-family: "Cronos Pro", "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
+        font-family: "Cronos Pro", "Newsreader", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
         font-style: italic !important;
         font-weight: 400 !important;
         font-size: 28px !important;
@@ -541,7 +541,7 @@
 
     h3 {
         border: 0 !important;
-        font-family: "Cronos Pro",  "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
+        font-family: "Cronos Pro",  "Newsreader", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
         font-style: italic !important;
         font-weight: 400 !important;
         color: var(--foreground) !important;
@@ -551,7 +551,7 @@
     }
     
     h4 {
-        font-family: "Cronos Pro",  "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
+        font-family: "Cronos Pro",  "Newsreader", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
         font-style: italic !important;
         font-weight: 400 !important;
         font-size: 20px !important;
@@ -562,7 +562,7 @@
     }
     
     h5 {
-        font-family: "Cronos Pro",  "EB Garamond", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
+        font-family: "Cronos Pro",  "Newsreader", "Gill Sans Nova", "Gill Sans MT", "Gill Sans", "Helvetica", 'Arial', sans-serif  !important;
         font-style: italic !important;
         font-weight: 400 !important;
         font-size: 18px !important;
