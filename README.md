@@ -14,7 +14,7 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 <details>
   <summary>Aeon</summary>
   
-  Evergreen Forest          |  Overcast Sky
+  Boreal Forest          |  Overcast Sky
   |-------------------------|-------------------------|
   ![image](https://user-images.githubusercontent.com/33649177/227742311-01c3b140-bb99-4a89-a129-6b12c2e8211a.png) | ![image](https://user-images.githubusercontent.com/33649177/227742330-3f9987df-fe04-4b10-b979-55143296ea5e.png)
 </details>
