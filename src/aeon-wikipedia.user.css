@@ -11,7 +11,7 @@
 @preprocessor stylus
 
 @var select stylus-wiki-style "Color presets" [
-	"Aeon-Evergreen-Forest",
+	"Aeon-Boreal-Forest",
     "Aeon-Overcast-Sky",
     "Nord-Dark",
 	"Nord-Light",
@@ -165,7 +165,7 @@
             --diff-old: #4D4C43;
             --diff-new: #3A515D;
         }
-        else if stylus-wiki-style=="Aeon-Evergreen-Forest" {
+        else if stylus-wiki-style=="Aeon-Boreal-Forest" {
             --background: #2E363A;
             --background-2: #38434A;
             --background-3: #434E55;
