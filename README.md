@@ -36,6 +36,14 @@ A simple and minimal wikipedia theme using colors from some popular palettes.
 </details>
 
 <details>
+  <summary>GitHub</summary>
+  
+  GitHub Dimmed             |  GitHub Light
+  |-------------------------|-------------------------|
+  ![image](https://github.com/aeon-tia/aeon-wikipedia-theme/assets/33649177/a3e44609-8e19-4cd1-9a45-f78b2d31a831) | ![image](https://github.com/aeon-tia/aeon-wikipedia-theme/assets/33649177/f8f190a4-ae3c-48cb-94ff-890c58490690)
+</details>
+
+<details>
   <summary>Solarized</summary>
   
   Dark                      |  Light
