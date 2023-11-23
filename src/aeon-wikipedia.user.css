@@ -3,7 +3,7 @@
 @namespace github.com/aeon-tia/aeon-wikipedia-theme
 @homepageURL https://github.com/aeon-tia/aeon-wikipedia-theme
 @updateURL https://github.com/aeon-tia/aeon-wikipedia-theme/raw/main/src/aeon-wikipedia.user.css
-@version 0.0.6
+@version 0.0.7
 @author Eon
 @description A simple and minimal theme for Wikipedia 2023
 @license GNU-V3.0
@@ -17,6 +17,8 @@
 	"Nord-Light",
 	"Everforest-Dark",
     "Everforest-Light",
+    "GitHub-Dimmed",
+    "GitHub-Light",
     "Solarized-Dark",
     "Solarized-Light",
     "Tomorrow-Night",
@@ -232,6 +234,73 @@
             --diff-ins: #425047;
             --diff-old: #4D4C43;
             --diff-new: #3A515D;
+        }
+        else if stylus-wiki-style=="GitHub-Dimmed" {
+            --background: #22272e;
+            --background-2: #2d333b;
+            --background-3: #373e47;
+            --background-4: #444c56;
+            --background-5: #545d68;
+            --background-black: #1c2128;
+            --background-alert: #373e47;
+            --foreground: #adbac7;
+            --foreground-2: #909dab;
+            --foreground-footer: #768390;
+            --foreground-disabled: #636e7b;
+            --foreground-code: #57ab5a;
+            --link: #6cb6ff;
+            --link-visited: #b083f0;
+            --link-invalid: #f47067;
+            --link-hover: #539bf5;
+            --link-invalid-hover: #f47067;
+            --border: #22272e;
+            --border-input: #373e47;
+            --main: #6cb6ff;
+            --main-hover: #539bf5;
+            --main-light: #96d0ff;
+            --error: #f47067;
+            --warn: #e0823d;
+            --note: #96d0ff;
+            --success: #6bc46d;
+            --dark-purple: #472c82;
+            --documentation: #143d79;
+            --diff-del: #5d0f12;
+            --diff-ins: #1b4721;
+            --diff-old: #5d0f12;
+            --diff-new: #1b4721;
+        }
+        else if stylus-wiki-style=="GitHub-Light" {
+            --background: #f6f8fa;
+            --background-2: #eaeef2;
+            --background-3: #d0d7de;
+            --background-4: #afb8c1;
+            --background-black: #ffffff;
+            --background-alert: #fff8c5;
+            --foreground: #424a53;
+            --foreground-2: #57606a;
+            --foreground-footer: #6e7781;
+            --foreground-disabled: #8c959f;
+            --foreground-code: #4ac26b;
+            --link: #0969da;
+            --link-visited: #8250df;
+            --link-invalid: #cf222e;
+            --link-hover: #0969da;
+            --link-invalid-hover: #cf222e;
+            --border: #f6f8fa;
+            --border-input: #eaeef2;
+            --main: #218bff;
+            --main-hover: #0969da;
+            --main-light: #54aeff;
+            --error: #cf222e;
+            --warn: #e16f24;
+            --note: #54aeff;
+            --success: #4ac26b;
+            --dark-purple: #3e1f79;
+            --documentation: #0a3069;
+            --diff-del: #4c0014;
+            --diff-ins: #003d16;
+            --diff-old: #4c0014;
+            --diff-new: #003d16;
         }
         else if stylus-wiki-style=="Solarized-Dark" {
             --background: #002b36;
